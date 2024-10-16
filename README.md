@@ -1,9 +1,4 @@
----
-license: mit
-language:
-- en
----
-# Image Captioning App
+# Image Captioning Cli
 
 This is a mod of [Wi-zz/joy-caption-pre-alpha](https://huggingface.co/Wi-zz/joy-caption-pre-alpha) and [fancyfeast/joy-caption-alpha-two](https://huggingface.co/spaces/fancyfeast/joy-caption-alpha-two). Thanks to [dominic1021](https://huggingface.co/dominic1021), [IceHibiki](https://huggingface.co/IceHibiki), [BullseyeMxP](https://huggingface.co/BullseyeMxP), [Wakeme](https://huggingface.co/Wakeme).
 
