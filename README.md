@@ -1,8 +1,9 @@
 # Image Captioning Cli
 
-This is a mod of [Wi-zz/joy-caption-pre-alpha](https://huggingface.co/Wi-zz/joy-caption-pre-alpha) and [fancyfeast/joy-caption-alpha-two](https://huggingface.co/spaces/fancyfeast/joy-caption-alpha-two).
+This is a mod of [fancyfeast/joy-caption-alpha-two](https://huggingface.co/spaces/fancyfeast/joy-caption-alpha-two).
 
-# Notice: I will contribute to Wi-zz after shaping the code.
+## Install Required
+Joy Caption Alpha Two: https://huggingface.co/spaces/fancyfeast/joy-caption-alpha-two/tree/main
 
 ## Overview
 
@@ -15,10 +16,6 @@ This application generates descriptive captions for images using advanced ML mod
 - Custom output directory
 - Adjustable caption generation options
 - Progress tracking
-
-
-## Install Required
-Joy Caption Alpha Two: https://huggingface.co/spaces/fancyfeast/joy-caption-alpha-two/tree/main
 
 ## Usage
 
@@ -137,8 +134,6 @@ source venv/bin/activate
 pip3 install torch torchvision torchaudio
 pip3 install -r requirements.txt
 ```
-
-## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
