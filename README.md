@@ -115,9 +115,9 @@ python app_cli.py [--input_image INPUT_IMAGE | --input_dir INPUT_DIR] --output O
 ### Windows
 
 ```bash
-git clone https://huggingface.co/John6666/joy-caption-alpha-two-cli-mod
-cd joy-caption-alpha-two-cli-mod
-python -m venv venv
+git clone https://github.com/diegocaumont/image-captions
+cd image-captions
+python -m venv venv OR conda create -n captions python==3.10 | conda activate captions
 .\venv\Scripts\activate
 # Change as per https://pytorch.org/get-started/locally/
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
@@ -127,16 +127,11 @@ pip install -r requirements.txt
 ### Linux
 
 ```bash
-git clone https://huggingface.co/John6666/joy-caption-alpha-two-cli-mod
-cd joy-caption-alpha-two-cli-mod
-python3 -m venv venv
+git clone https://github.com/diegocaumont/image-captions
+cd image-captions
+python -m venv venv OR conda create -n captions python==3.10 | conda activate captions
 source venv/bin/activate
 pip3 install torch torchvision torchaudio
 pip3 install -r requirements.txt
 ```
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
